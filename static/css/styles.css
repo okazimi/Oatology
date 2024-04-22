@@ -1,0 +1,355 @@
+/* GENERAL CSS */
+/* Body */
+html body {
+    font-family: Permanent Marker;
+    background-color: #FFE1E1;
+    overflow-x: hidden;
+}
+
+
+
+/* NAVBAR CSS */
+/* Navbar */
+html .navbar {
+    background-color: #FFE1E1;
+    padding: 30px 0px 30px 0px;
+}
+
+/* Navbar brand */
+html .navbar-brand {
+    font-family: Monoton;
+    color: #829460;
+    font-size: 5rem;
+    text-align: center;
+    display: block;
+    float: none;
+}
+
+/* Navbar login and shopping bag buttons */
+html .navbar-buttons-div {
+    text-align: right;
+}
+
+/* Navbar login and shopping bag buttons */
+html .navbar-buttons {
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: #FFE1E1;
+    color: #829460;
+    padding: 10px 15px;
+    border: none;
+}
+
+/* Navbar login and shopping bag buttons hover settings */
+html .navbar-buttons:hover {
+    background-color: #FFE1E1;
+    color: #829460;
+    text-decoration: none;
+}
+
+/* The sidebar menu */
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #FFE1E1;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #829460;
+    display: block;
+    transition: 0.3s;
+    font-family: Monoton;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+    color: #829460;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 1.5rem;
+    margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: #FFE1E1;
+    color: #829460;
+    padding: 10px 15px;
+    border: none;
+}
+
+/* Color of menu toggler when you hover over it */
+.openbtn:hover {
+    background-color: #FFE1E1;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+
+
+
+/* REGISTER PAGE CSS */
+/* Register form */
+#register-form {
+    text-align: center;
+    margin: 20px 0px 190px 0px;
+}
+
+/* Register form input fields */
+.register-form-input-fields {
+    margin: 0px 0px 15px 0px;
+}
+
+/* Change size of input boxes */
+html .form-control {
+    font-size: 1.5rem;
+}
+
+/* Register button */
+html .register-form-submit-button {
+    text-align: center;
+    color: #829460;
+    background-color: #FFE1E1;
+    border-color: #829460;
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+/* Register button when hovering */
+html .register-form-submit-button:hover {
+    color: #FFE1E1;
+    background-color: #829460;
+    border-color: #FFE1E1;
+}
+
+/* Register page flash messages */
+#register-flash-messages {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 80px 0px 0px 0px;
+    color: red;
+}
+
+
+
+/* LOGIN PAGE CSS */
+/* Login form */
+#login-form {
+    text-align: center;
+    margin: 20px 0px 190px 0px;
+}
+
+/* Login form input fields */
+.login-form-input-fields {
+    margin: 0px 0px 15px 0px;
+}
+
+/* Login button */
+html .login-form-submit-button {
+    text-align: center;
+    color: #829460;
+    background-color: #FFE1E1;
+    border-color: #829460;
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+/* Login button when hovering */
+html .login-form-submit-button:hover {
+    color: #FFE1E1;
+    background-color: #829460;
+    border-color: #FFE1E1;
+}
+
+/* Login page flash messages */
+#login-flash-messages {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 80px 0px 0px 0px;
+    color: red;
+}
+
+
+/* HOME PAGE CSS */
+/* OUR MISSION */
+/* Our mission container */
+.our-mission-container {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: #829460;
+}
+
+/* Our mission text */
+html .our-mission-text {
+    padding: 0px 0px 0px 275px;
+}
+
+/* Our mission image */
+html .our-mission-image {
+    padding: 30px 300px 0px 0px;
+}
+
+/* FACTS */
+/* Container holding all the cards */
+.facts-container {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+/* Each card in the facts section */
+html .card {
+    border: none;
+    background-color: #FFE1E1;
+    text-align: center;
+}
+
+/* The image associated with each card */
+.fact-card-image {
+    width: 100px;
+    height: 100px;
+}
+
+/* The text associated with each card */
+.fact-text {
+    text-align: justify;
+    margin-top: 30px;
+    color: #829460;
+}
+
+/* PRODUCTS */
+/* Products container */
+.product-container {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+/* The image associated with each card */
+.product-card-image {
+    width: 100px;
+    height: 100px;
+}
+
+/* Text within product card */
+.product-text {
+    text-align: center;
+    color: #829460;
+    margin-top: 15px;
+}
+
+/* Product quantity */
+html .product-quantity {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: #FFE1E1;
+    color: #829460;
+}
+
+/* Add to cart button */
+html .product-button {
+    text-align: center;
+    color: #829460;
+    background-color: #FFE1E1;
+    border-color: #829460;
+    margin-top: 15px;
+}
+
+/* Add to cart button when hovering */
+html .product-button:hover {
+    color: #FFE1E1;
+    background-color: #829460;
+    border-color: #FFE1E1;
+}
+
+/* SHIPPING-RETURNS */
+/* Shipping-returns container */
+.shipping-returns-container {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+/* The image associated with each card */
+.shipping-returns-image {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+/* FOOTER */
+/* Div containing social media icons */
+.social-media-div {
+    padding-top: 10px;
+}
+
+/* Remove underline associated with each icon when user hovers */
+.social-media-icon:hover {
+    text-decoration: none;
+}
+
+/* Div containing contact info */
+.contact-info-div {
+    padding-bottom: 15px;
+}
+
+/* Payment methods */
+.payment-methods {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+/* RESPONSIVE STYLING */
+@media screen and (max-width:991px) {
+    /* Change navbar brand */
+    html .navbar-brand {
+        padding: 0px 0px 0px 0px;
+    }
+    /* Reposition navbar login/cart icons */
+    html .navbar-buttons-div {
+        text-align: center;
+        padding: 20px 0px 0px 0px;
+    }
+
+    /* Change our mission text padding */
+    html .our-mission-text {
+        padding: 0px 0px 0px 40px;
+    }
+    /* Change h3 alignment */
+    html h3 {
+        text-align: center!important;
+    }
+    /* Change our mission image padding */
+    html .our-mission-image {
+    padding: 100px 0px 0px 0px;
+}
+}
